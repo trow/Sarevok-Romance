@@ -23,7 +23,7 @@ AUTO_TRA ~sarevokromance/translations/%s~
 
 ALWAYS
   // No exception, everything needs to be converted
-  ACTION_DEFINE_ARRAY SareRomnoconvert BEGIN END
+  ACTION_DEFINE_ARRAY SareRomnoconvert BEGIN setup END
 
   // any tra files used in LANGUAGE need to be reloaded after UTF-8 conversion
   ACTION_DEFINE_ARRAY SareRomreload BEGIN sarevokromance END
@@ -49,7 +49,10 @@ LANGUAGE ~Polish (by Astharoshe, member of SoM)~
 LANGUAGE ~Russian (by HelenAzura, Dajdre, Larite & Arcanecoast.ru)~
          ~Russian~
          ~sarevokromance/translations/russian/sarevokromance.tra~
-
+LANGUAGE ~Simplified Chinese (by Alex Lunau from T.R.O.W.)~
+         ~schinese~
+         ~sarevokromance/translations/schinese/setup.tra~
+		 
 // Component
 BEGIN @1
   REQUIRE_PREDICATE GAME_IS ~tob bgt bg2ee eet~ @2
